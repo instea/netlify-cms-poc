@@ -34,3 +34,36 @@ collections:
                 label: "Card background color"
                 widget: "color"
                 required: true
+      - name: "navigation"
+        label: "Navigation"
+        delete: false
+        file: "/src/content/navigation.json"
+        fields:
+          - name: "location"
+            label: "Location"
+            widget: "object"
+            fields:
+              - name: "about"
+                label: "About"
+                widget: "string"
+                required: true
+              - name: "program"
+                label: "Program"
+                widget: "string"
+                required: true
+              - name: "venue"
+                label: "Venue"
+                widget: "string"
+                required: true
+              - name: "sponsors"
+                label: "Sponsors"
+                widget: "string"
+                required: true
+              - name: "chat"
+                label: "Chat"
+                widget: "string"
+                required: true
+              - name: "reportProblem"
+                label: "Report problem"
+                widget: "string"
+                required: true
