@@ -11,8 +11,7 @@ collections:
     files:
       - name: "General information"
         label: "Application information"
-        file: "src/content/general"
-        extension: "json"
+        file: "/src/content/general.json"
         fields:
           - name: "appTitle"
             label: "Title"
