@@ -11,7 +11,10 @@ collections:
     files:
       - name: "General information"
         label: "Application information"
-        file: "src/content/general.json"
+        file: "src/content/general"
+        extension: "json"
         fields:
           - name: "appTitle"
             label: "Title"
+            widget: "string"
+            required: true
