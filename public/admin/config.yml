@@ -11,9 +11,26 @@ collections:
     files:
       - name: "General information"
         label: "Application information"
+        delete: false
         file: "/src/content/general.json"
         fields:
           - name: "appTitle"
             label: "Title"
             widget: "string"
             required: true
+          - name: "crossTrack"
+            label: "Cross track"
+            widget: "object"
+            fields:
+              - name: "color"
+                label: "Color"
+                widget: "color"
+                required: true
+              - name: "label"
+                label: "Label"
+                widget: "string"
+                required: true
+              - name: "cardBackgroundColor"
+                label: "Card background color"
+                widget: "color"
+                required: true
