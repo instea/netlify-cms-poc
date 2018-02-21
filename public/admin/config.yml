@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: instea/netlify-cms-poc
+  branch: master
+  base_url: http://localhost:3000
+publish_mode: editorial_workflow
+media_folder: src/content/media
+collections:
+  - name: "main"
+    label: "Application configuration"
+    files:
+      - name: "General information"
+        label: "Application information"
+        file: "src/content/general.json"
+        fields:
+          - name: "appTitle"
+            label: "Title"

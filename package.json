@@ -1,0 +1,16 @@
+{
+  "name": "netlify-cms-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/instea/netlify-cms-poc.git",
+  "author": "Juraj Matuš <matus.juraj@yandex.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "scripts": {
+    "start": "sh ./bin/start.sh",
+    "debug": "sh ./bin/start.sh --inspect"
+  }
+}
