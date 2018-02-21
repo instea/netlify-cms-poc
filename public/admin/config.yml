@@ -67,3 +67,15 @@ collections:
                 label: "Report problem"
                 widget: "string"
                 required: true
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "about"
+        label: "About"
+        file: "/src/content/about.json"
+        delete: false
+        fields:
+          - name: "text"
+            label: "Text"
+            widget: "markdown"
+            required: true
