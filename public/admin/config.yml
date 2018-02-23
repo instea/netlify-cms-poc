@@ -12,7 +12,7 @@ collections:
       - name: "General information"
         label: "Application information"
         delete: false
-        file: "/src/content/general.json"
+        file: "src/content/general.json"
         fields:
           - name: "appTitle"
             label: "Title"
@@ -37,7 +37,7 @@ collections:
       - name: "navigation"
         label: "Navigation"
         delete: false
-        file: "/src/content/navigation.json"
+        file: "src/content/navigation.json"
         fields:
           - name: "location"
             label: "Location"
@@ -72,7 +72,7 @@ collections:
     files:
       - name: "about"
         label: "About"
-        file: "/src/content/about.json"
+        file: "src/content/about.json"
         delete: false
         fields:
           - name: "text"
